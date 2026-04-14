@@ -71,6 +71,7 @@ function registerUser() {
             });
 
         } catch (error) {
+            console.log(error)
             next("Error For Creating User", error);
         }
     };

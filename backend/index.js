@@ -1,6 +1,7 @@
 const express = require('express')
 const dotenv = require('dotenv')
 const mongoose = require('mongoose')
+const path = require('path');
 const userRoutes = require('./src/routers/userRoute')
 const folderRoutes = require('./src/routers/folderRoutes')
 const FormRoutes = require('./src/routers/formRoutes')
@@ -23,13 +24,18 @@ app.use(cors(
     }
 ))
 app.use(express.json())
-app.get('/' , (req , res) =>{
-    res.send('hello World')
-})
+// app.get('/' , (req , res) =>{
+//     res.send('hello World')
+// })
+app.use(express.static(path.join(__dirname, 'frontend/dist')));
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'frontend/dist/index.html'));
+});
 app.use('/user' , userRoutes)
 app.use('/folder' , folderRoutes)
 app.use('/form' , FormRoutes)
 app.use('/formdata' , FormDataRoutes)
+
 
 app.use("*", (req, res) => {
     res.status(404).json({
