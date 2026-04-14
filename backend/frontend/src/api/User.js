@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const BACKEND_ORIGIN_URL = 'http://localhost:4005/user'
-const BACKEND_ORIGIN_URL = `${import.meta.env.VITE_BACKEND_URL}/user`
+const BACKEND_ORIGIN_URL = `/user`
 
 const Login = async (email , password) =>{
     try {
