@@ -1,0 +1,111 @@
+.page{
+    display: flex;
+    height: 92vh;
+}
+
+.selectTheme{
+    /* width: 25%; */
+    flex: 1;
+    min-width: 300px;
+    height: 100%;
+    background-color: #18181B;
+    border: 2px solid #27272A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+.selectTheme h3{
+    width: 100%;
+    height: 10vh;
+    min-height: 80px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #2C2C2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.themeOptions{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 20%;
+    min-width: 200px;
+    border-radius: 8px;
+    border: 1px solid #2C2C2F;
+}
+
+.themeOptions img{
+    height: 75%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.themeOptions h4{
+    font-size: 1rem;
+    font-weight: 600;
+    height: 25%;
+    padding-left: 10px ;
+    padding-top: 5px;
+    background-color: #000000;
+    border-radius: 0 0 8px 8px;
+    cursor: pointer;
+}
+
+.applyTheme{
+    /* width: 75%; */
+    flex: 3;
+    /* position: relative; */
+    padding: 5rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bubble{
+    /* position: absolute; */
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bubble img{
+    width: 40px;
+    height: 40px;
+}
+
+.bubble p , .input{
+    height: 40px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 400px;
+}
+.bubble p{
+    width: 5rem;
+    background-color: #f7F8FF;
+    color: #000000;
+}
+
+.input{
+    align-self: flex-end;
+    position: relative;
+    /* right: 5rem;
+    top: 9rem; */
+    width: 4rem;
+    background-color: #0042DA;
+}
+
+.input div {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #0063FF;
+    border-radius: 6px;
+    right: -5px;
+    top: -5px;
+}

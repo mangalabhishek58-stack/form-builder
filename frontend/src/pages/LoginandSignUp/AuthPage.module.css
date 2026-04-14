@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.page {
+    width: 100%;
+    height: 100vh;
+    /* background: #121212; */
+    background: linear-gradient(0deg, #121212, #121212), linear-gradient(0deg, #18181B, #18181B);
+    color: #ffffff;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+.backButton {
+    width: 60px;
+    height: 40px;
+    position: fixed;
+    top: 5%;
+    left: 2.5%
+}
+
+.shape {
+    position: absolute;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+}
+
+.yellow {
+    background-color: #FFBF7D;
+    bottom: -7rem;
+    right: 25%;
+}
+
+.pink {
+    background-color: #ff9595;
+    top: 15% ;
+    right: -7rem;
+}
+
+.formPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm , .signupForm{
+    width: 25vw;
+    min-width: 300px;
+}
+
+.formPage form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputBox , .inputBoxError{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formPage label {
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.formPage input {
+    padding: 10px;
+    border-radius: 12px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, .5);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .25);
+    font-weight: 300;
+    font-size: .9rem;
+    color: #ffffff;
+    outline: none;
+}
+
+.inputBoxError label {
+    color: #FF4141;
+}
+
+.inputBoxError input{
+    border: 1px solid rgba(255, 39, 39, .5);
+}
+
+.inputBoxError p{
+    color: #522224;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.formPage button {
+    background-color: #1a5fff;
+    color: #ffffff;
+    font-size: .9rem;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.switch {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.switch span{
+    color: #007FFF;
+}

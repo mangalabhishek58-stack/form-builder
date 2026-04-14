@@ -1,0 +1,46 @@
+.page{
+    width: 30vw;
+    min-width: 400px;
+    height: 200px;
+    border: 1px solid #47474A;
+    border-radius: 1.5rem;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #18181B;
+    position: fixed;
+    left: 30vw;
+}
+
+.page h3{
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.page input{
+    height: 50px;
+    background-color: #1F1F23;
+    border-radius: 12px;
+    border: none;
+    padding: 0 15px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+}
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.confirm{
+    color: #4B83FF;
+}
+
+.divider{
+    height: 50px;
+    border-left: 1px solid #47474A;
+}

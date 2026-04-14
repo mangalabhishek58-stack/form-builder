@@ -1,0 +1,397 @@
+
+.page {
+    background-color: #121212;
+    color: #ffffff;
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.page header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    min-width: 5vh;
+}
+
+.heading,
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.heading h4 {
+    font-weight: 700;
+    font-size: 1.11rem;
+    font-family: "Outfit", sans-serif;
+}
+
+.heading img {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.navbar button {
+    min-width: 87px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10.05px 17px 10.75px 17px;
+}
+
+.loginButton {
+    background: none;
+    border: 1px solid #7EA6FF;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #7EA6FF;
+}
+
+.signupButton {
+    background-color: #1a5fff;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, .2);
+    border: none;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* header End */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+.container section{
+    text-align: center;
+    /* width: 80vw; */
+    /* margin-top: 5rem; */
+}
+.layout2 , .layout5 , .layout6{
+    width: 80%;
+    margin-top: 100px;
+}
+
+.layout1{
+    margin-top: 0;
+}
+
+.chatbotIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.chatbotIntro h2 {
+    background: linear-gradient(to right, #4b83ff, #b794f4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+}
+
+.chatbotIntro p {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.chatbotIntro button,
+.layout8 button {
+    height: 60px;
+    min-width: 250px;
+    width: 20vw;
+    font-weight: 600;
+    font-size: 1.11rem;
+}
+
+.introImage {
+    /* width: 100vw; */
+    text-align: center;
+}
+
+.introImage img {
+    width: 80%;
+    /* background: ; */
+}
+
+/* replace form section is start */
+
+.layout2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout2 h2,
+.layout5Heading h2 {
+    padding: 0 100px;
+    font-weight: 700;
+    font-size: 3.75rem;
+    font-family: "Outfit", sans-serif;
+}
+
+.layout2 p,
+.layout5Heading p {
+    font-size: 1.25rem;
+    padding: 0 3px;
+    margin-top: 20px;
+    color: #a0aec0;
+}
+
+.comparison {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.comparison div{
+    display: flex;
+    justify-content: center;
+}
+
+.comparison img{
+    width: 100%;
+}
+
+.layout3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+    margin-top: 100px;
+    gap: 80px;
+}
+
+.shortDesc {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.descImg {
+    flex: 2;
+}
+
+.descImg img {
+    width: 100%;
+    max-height: 410px;
+    border-radius: 6px;
+}
+
+.descDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+
+.descDiv h3 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    font-family: "Outfit", sans-serif;
+}
+
+.descDiv p {
+    font-size: 1.25rem;
+    color: #a0aec0;
+}
+
+.layout4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 50px;
+}
+
+.rowIcons {
+    width: 98%;
+    padding: 0 10px;
+    background: linear-gradient(to right, rgba(23, 25, 35, 1), rgba(23, 25, 35, 0), rgba(23, 25, 35, 0), rgba(23, 25, 35, 1));
+}
+
+.rowIcon1 div ,.rowIcon2 div{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, .16);
+    background-color: #1a202c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rowIcons img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.rowIcon1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowIcon2{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.layout4Text {
+    width: 88%;
+    text-align: left;
+}
+
+.layout5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.layout5Heading span {
+    font-weight: 700;
+}
+
+.layout5 img{
+    width: 100%;
+}
+
+.layout6Heading h3{
+    font-family: "Outfit", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .92)
+}
+
+.layout6Heading p{
+    font-size: 1.25rem;
+    color: #718096;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-top: 50px;
+}
+
+.featureDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #1a202c;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+.featureDiv div{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    border-radius: 8px;
+    background-color: #0042DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+    gap: 3rem;
+    background: linear-gradient( rgba(23 ,25 , 35 , 1), rgba(26 , 32 , 44 , 1));
+}
+
+.teams{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.layout7 h4 {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.55rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.layout8 {
+    width: 100%;
+    height: 90vh;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( rgba(23 ,25 , 35 , 1), rgba(26 , 32 , 44 , 1));
+}
+
+.layout8 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 32px;
+    gap: 24px;
+}
+
+.layout8 h2 {
+    font-weight: 800;
+    font-size: 2.25rem;
+    font-family: "Outfit", sans-serif;
+}
+
+.layout8 button {
+    border-radius: 6px;
+    /* padding: 21px 24px; */
+    width: 25vw;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, .2);
+}
+
+.layout8 p {
+    font-size: 1rem;
+    color: #a0aec0;
+}
+
+.layout8 span {
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 40px 220px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+li {
+    list-style: none;
+}
