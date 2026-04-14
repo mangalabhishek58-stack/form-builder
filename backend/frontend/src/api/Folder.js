@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_ORIGIN_URL = `${import.meta.env.VITE_BACKEND_URL}/folder`
+const BACKEND_ORIGIN_URL = `/folder`
 
 const CreateFolder = async (folderName ) =>{
     try {

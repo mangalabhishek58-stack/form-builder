@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_ORIGIN_URL = `${import.meta.env.VITE_BACKEND_URL}/formdata`
+const BACKEND_ORIGIN_URL = `/formdata`
 
 const CreateData = async (formId , Data ) =>{
     try {
