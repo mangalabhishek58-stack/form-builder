@@ -1,0 +1,92 @@
+.page{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.page header{
+    height: 10vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, .16);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page header select{
+    height: 2.5rem;
+    min-width: 250px;
+    padding: 8px 9px;
+    background: none;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, .16);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .92);
+    
+}
+
+.page select:focus{
+    background: #121212 ;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, .16);
+}
+
+.workspace{
+    padding: 40px 5%  40px 10%;
+}
+
+.folderStr , .typebotStr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.folderStr div{
+    background-color: rgba(255, 255, 255, .08);
+    height: 2.5rem;
+    border-radius: 6px;
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16vw;
+    min-width: 175px;
+}
+.folderStr h5{
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.typebotStr{
+    margin-top: 2rem;
+    position: relative;
+}
+
+.createTypebot {
+    width: 17vw;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background: #1A5FFF;
+    padding: 0 20px;
+    min-width: 225px;
+    min-height: 270px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.plusIcon{
+    width: 40px;
+    height: 40px;
+}
+.createTypebot p{
+    font-weight: 400;
+    font-size: 1.12rem;
+}

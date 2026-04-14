@@ -1,0 +1,86 @@
+.page{
+    height: 100vh;
+    background-color: #1F1F23 ;
+    position: relative;
+}
+
+.page header{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #18181B;
+    border-bottom: 1px solid rgba(255, 255, 255, .16);
+    padding: 0 20px;
+}
+
+.formNameInput input{
+    background-color: #37373E ;
+    height: 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    min-width: 9rem;
+    padding: 0 15px;
+    color: white;
+    font-weight: 600;
+    font-size: .75rem;
+}
+
+.navBar , .actions{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navBar h5 {
+    min-height: 2rem;
+    border-radius: 6px;
+    /* display: flex;
+    align-items: center; */
+    padding: 8px 12px;
+    font-weight: 600;
+    font-size: .87rem;
+    cursor: pointer;
+}
+
+.actions button{
+    height: 1.5rem;
+    color: #ffffff;
+    padding: 0 10px;
+    border: none;
+    border-radius: 4px;
+    min-width: 4rem;
+    font-weight: 600;
+    font-size: .87rem;
+    text-align: center;
+    background-color: #848890;
+}
+
+.actions p{
+    height: 1.5rem;
+    color: #F55050;
+    font-size:1rem ;
+    cursor: pointer;
+}
+
+.copylink{
+    position: fixed;
+    max-height: 35px;
+    min-width: 110px;
+    top: 10vh;
+    right: 10vw;
+    background: #18181B;
+    border: 1px solid #3D3D3F;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: .5rem;
+    padding-right: 1rem;
+}
+
+.copylink p{
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .92);
+}
